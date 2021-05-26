@@ -1,0 +1,89 @@
+.buttons-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-buttons-top-filter {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.item-buttons-top-filter {
+  background: #b4bacb;
+  padding: 3px 4px 2px 4px;
+  border-radius: 18px 18px 0px 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 28px;
+  font-size: 16px;
+  font-family: Poppins;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.item-buttons-top-filter:focus {
+  background: #99d4ff;
+  color: #424960;
+}
+
+.list-buttons-bottom-filter {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.item-buttons-bottom-filter {
+  background: #99d4ff;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  color: #424960;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: Poppins;
+  cursor: pointer;
+}
+.item-buttons-bottom-filter > img {
+  position: relative;
+  right: -10px;
+}
+
+.item-2-buttons-bottom-filter {
+  background: #99d4ff;
+  padding: 10px 0px 10px 45px;
+  width: 100%;
+  text-align: left;
+  color: #424960;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.item-2-buttons-bottom-filter > img {
+  position: relative;
+  right: -10px;
+}
+
+@media (max-width: 570px) {
+  .list-buttons-top-filter {
+    width: 100%;
+  }
+  .item-buttons-bottom-filter {
+    width: 50%;
+  }
+  .item-2-buttons-bottom-filter {
+    width: 50%;
+  }
+}
