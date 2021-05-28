@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import ButtonSearch from "../ButtonSearch/ButtonSearch";
-import ArrowUp from "../../assets/img/Buttons/ArrowUp.svg";
-import ArrowDown from "../../assets/img/Buttons/ArrowDown.svg";
+import ArrowUp from "../../assets/icons/ArrowUp.svg";
+import ArrowDown from "../../assets/icons/ArrowDown.svg";
 
 import "./styles.css";
 
 export default function ButtonsFilter() {
   const [buttonsTop] = useState(["Gatos", "Cachorros", "Outros Pets"]);
-  //const [buttonsBottom] = useState(["Raça", "Idade", "Localização"]);
   const [buttonsBottom, setbuttonsBottom] = useState({
     filters: [
       { name: "Raça", arrow: ArrowDown, subButtons: [] },

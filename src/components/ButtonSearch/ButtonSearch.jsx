@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import Search from "../../assets/img/Buttons/Search.svg";
+import Search from "../../assets/icons/Search.svg";
 
 export default function ButtonSearch() {
   return (
