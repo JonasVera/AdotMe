@@ -53,6 +53,11 @@
   display: inherit;
 }
 
+.card-porte-share > div {
+  display: inherit;
+  cursor:pointer;
+}
+
 .card-port-ative {
   padding: 1px 10px;
   left: 19px;

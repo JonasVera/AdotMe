@@ -7,7 +7,7 @@ import Gato from "../../assets/img/Header/Gato.svg";
 import Cachorro from "../../assets/img/Header/Cachorro.svg";
 import ButtonsFilter from "../ButtonsFilter/ButtonsFilter";
 
-export default function Header() {
+export default function Header({ filterDadosAnimais, dadosAnimais,handleModalSearch }) {
   return (
     <header className="header">
       {/*container header lado esquerdo*/}
@@ -30,7 +30,11 @@ export default function Header() {
           </div>
         </div>
         <div className="header-buttonsFilters">
-          <ButtonsFilter />
+          <ButtonsFilter
+            handleModalSearch={handleModalSearch}
+            filterDadosAnimais={filterDadosAnimais}
+            dadosAnimais={dadosAnimais}
+          />
         </div>
       </div>
       {/* container header lado esquerdo */}
